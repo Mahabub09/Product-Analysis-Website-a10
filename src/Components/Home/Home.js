@@ -1,9 +1,11 @@
 import React from 'react';
+import IMG from './img.png'
+
 
 const Home = () => {
     return (
         <div className='conatiner flex'>
-            <div className='ml-16 flex-1'>
+            <div className='ml-16 flex-1 mt-32'>
                 <h1 className='text-left text-4xl font-serif underline underline-offset-8 mb-8'>
                     BLEU DE CHANEL
                 </h1>
@@ -17,7 +19,7 @@ const Home = () => {
 
             </div>
             <div className='flex-1'>
-                image
+                <img src={IMG} alt="" />
             </div>
         </div >
     );
