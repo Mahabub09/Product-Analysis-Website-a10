@@ -13,6 +13,7 @@ const BarChartData = () => {
         <BarChart width={500} height={300} data={data}>
 
             <Bar dataKey="sell" fill="#8884d8" />
+
             <XAxis dataKey="month"></XAxis>
             <YAxis></YAxis>
             <Tooltip></Tooltip>

@@ -10,7 +10,9 @@ const LineChartData = () => {
 
     }, [])
     return (
+
         <LineChart width={500} height={300} data={data}>
+
             <Line type="monotone" dataKey="investment" stroke="#8884d8" strokeWidth={2} />
             <Line type="monotone" dataKey="revenue" stroke="#82ca9d" strokeWidth={2} />
             <XAxis dataKey="month"></XAxis>
