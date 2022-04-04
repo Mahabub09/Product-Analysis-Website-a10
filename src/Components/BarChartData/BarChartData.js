@@ -1,8 +1,8 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Bar, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
 
-const BarChart = () => {
+const BarChartData = () => {
     const [data, setData] = useState([])
     useEffect(() => {
         axios.get('data.json')
@@ -10,7 +10,6 @@ const BarChart = () => {
 
     }, [])
     return (
-
         <BarChart width={500} height={300} data={data}>
 
             <Bar dataKey="sell" fill="#8884d8" />
@@ -22,4 +21,4 @@ const BarChart = () => {
     );
 };
 
-export default BarChart;
+export default BarChartData;

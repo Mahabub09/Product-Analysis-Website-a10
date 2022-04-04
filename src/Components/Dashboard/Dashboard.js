@@ -1,24 +1,21 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
-import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
+import React from 'react';
+import BarChartData from '../BarChartData/BarChartData';
+import LineChartData from '../LineChartData/LineChartData';
 
 const Dashboard = () => {
-    const [data, setData] = useState([])
-    useEffect(() => {
-        axios.get('data.json')
-            .then(data => setData(data.data))
-
-    }, [])
     return (
+        <div className='flex mt-12 ml-36'>
+            <div className='mr-16'>
+                <h1 className='font-medium text-xl text-sky-700'>MONTH WISE SELL</h1>
+                <BarChartData></BarChartData>
 
-        <BarChart width={500} height={300} data={data}>
+            </div>
+            <div>
+                <h1 className='font-medium text-xl text-sky-700'>INVESTMENT VS REVENUE</h1>
+                <LineChartData></LineChartData>
 
-            <Bar dataKey="sell" fill="#8884d8" />
-            <XAxis dataKey="month"></XAxis>
-            <YAxis></YAxis>
-            <Tooltip></Tooltip>
-
-        </BarChart>
+            </div>
+        </div>
     );
 };
 
