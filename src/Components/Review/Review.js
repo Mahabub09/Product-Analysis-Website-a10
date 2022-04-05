@@ -3,7 +3,7 @@ import React from 'react';
 const Review = (props) => {
     const { name, statement, phone, img, rating } = props.review
     return (
-        <div className='flex justify-between bg-slate-100  shadow-lg shadow-gray-300/50 mb-10 items-cnenter'>
+        <div className='flex justify-between bg-slate-100  shadow-lg shadow-gray-300/50 mb-10 items-center  mt-5'>
             <div className='w-96'>
                 <img className='h-60  rounded-full ' src={img} alt="" />
             </div>

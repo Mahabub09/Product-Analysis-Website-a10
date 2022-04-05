@@ -1,18 +1,10 @@
 [
     {
-        "id": 1,
-        "name": "Verna V. Allen",
-        "phone": "678-291-0627",
-        "statement": "sickening sweetness, like falling in a tub of syrup and being unable to free yourself from its sticky grip. this is strong, raunchy, molasses-like sweetness like ive never smelt before. i imagine its the sort of thing that would drive men wild if worn on a woman. this is what i imagine is the modern equivalent to tabu in concept, smell of a whore. its sublime.",
-        "rating": 4.1,
-        "img": "https://t3.ftcdn.net/jpg/03/05/77/64/360_F_305776453_t7SUl48g63zLsyODxd60aj6EcWR9avVK.jpg"
-    },
-    {
         "id": 2,
         "name": "Mattie D. Moran",
         "phone": "618-682-3893",
         "statement": "I bought a decant and got lot of compliments the very first time I wore it but to be honest, it just smells like sweetened Povidone-iodine to me. I don't think I'm willing to spend that much to smell like a sweet antiseptic.",
-        "rating": 4.1,
+        "rating": 5,
         "img": "https://st.depositphotos.com/1269204/1219/i/600/depositphotos_12196477-stock-photo-smiling-men-isolated-on-the.jpg"
     },
     {
@@ -20,7 +12,7 @@
         "name": "Frances V. Strong",
         "phone": "865-385-4602",
         "statement": "I find it to be overly sweet, the kind of sweet that gives you cavities :) I wouldn't use it on myself but I still enjoy it as a room spray on cold winter nights to create a warm and cozy atmosphere.",
-        "rating": 4.1,
+        "rating": 4.5,
         "img": "https://thumbs.dreamstime.com/b/beautiful-black-man-front-white-background-happy-expressions-132674996.jpg"
     },
     {
@@ -36,7 +28,7 @@
         "name": "Francis L. Farrier",
         "phone": "215-680-8602",
         "statement": "So excited about this one, i knew i needed to pick it up when it was compared it to secret charm on here! I absolutely loooove that scent and haven’t seen it in years. I was not disappointed it smells so clean just like secret charm",
-        "rating": 4.1,
+        "rating": 4,
         "img": "https://img.freepik.com/free-photo/young-attractive-man-isolated-white-background_185193-76398.jpg?w=2000"
     },
     {
@@ -44,7 +36,15 @@
         "name": "Richard V. Jones",
         "phone": "415-723-1862",
         "statement": "To me, it smells like a fresh cut green tea leaves infusion like the Replica Matcha, + the heart of the Declaration. It is very nice, clean and easy to wear. Perfect for spring :)",
-        "rating": 4.1,
+        "rating": 5,
         "img": "https://t3.ftcdn.net/jpg/01/92/16/04/360_F_192160468_2ev2JYmocXi7pxbBiPsfNEVwDqmTTLYL.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Verna V. Allen",
+        "phone": "678-291-0627",
+        "statement": "sickening sweetness, like falling in a tub of syrup and being unable to free yourself from its sticky grip. this is strong, raunchy, molasses-like sweetness like ive never smelt before. i imagine its the sort of thing that would drive men wild if worn on a woman. this is what i imagine is the modern equivalent to tabu in concept, smell of a whore. its sublime.",
+        "rating": 4.5,
+        "img": "https://t3.ftcdn.net/jpg/03/05/77/64/360_F_305776453_t7SUl48g63zLsyODxd60aj6EcWR9avVK.jpg"
     }
 ]
