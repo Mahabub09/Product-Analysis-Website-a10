@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
-import CustomLink from '../CustomLink/CustomLink';
 import Review from '../Review/Review';
 import IMG from './img.png'
 
