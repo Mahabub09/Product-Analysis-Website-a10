@@ -13,6 +13,7 @@ const Header = () => {
                 <CustomLink to='/about'>About</CustomLink>
 
             </nav>
+
         </div>
     );
 };
